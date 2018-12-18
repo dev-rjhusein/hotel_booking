@@ -1,8 +1,5 @@
 <?php
-
-
-
-
+//Make the DB connection reusable
 function connDB(){
 	global $mysqli;
 	// connect to the database
@@ -14,7 +11,4 @@ function connDB(){
 		exit();
 	}
 }
-
-
-
 ?>
