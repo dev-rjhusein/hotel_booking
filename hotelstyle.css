@@ -1,0 +1,73 @@
+body{
+	background-color: lightgrey;
+}
+#logo{
+	display: block;
+	margin: auto;
+}
+nav ul{
+	list-style-type: none;
+	padding: 0;
+}
+nav ul li{
+	text-align: center;
+	border: solid 1px gray;
+	padding: 10px;
+	margin-bottom: -1px;
+}
+nav ul li a{
+	text-decoration: none;
+	font-size: 1.5em;
+}
+#main, footer, aside {
+	border: solid 1px gray;
+	margin-bottom: 15px;
+	padding: 10px;
+}
+.social{
+	width: 1.5em;
+	float: right;
+}
+[type]{
+	display: block;
+}
+#socialgroup{
+	display: inline-block;
+	margin-left: 20px;
+}
+nav ul li a:hover{
+color:red;
+
+}
+nav ul li:hover{
+	background-color: white;
+}
+
+/* for wider screen */
+@media only screen and (min-width:45em){
+	#logo{
+		display: inline;
+		height: 2em;
+		float: left;
+		margin-right: 5px;
+	}
+	nav ul li{
+		display: inline;
+	}
+	#main{
+		width: 70%;
+		float: left;
+	}
+	aside{
+		width: 25%;
+		float: left;
+		margin-left: 1%;
+	}
+	footer{
+		clear: left;
+	}
+	#phone{
+		padding-right: 20px;
+		float: right;
+	}
+}

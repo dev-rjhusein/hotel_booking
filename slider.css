@@ -1,0 +1,13 @@
+#slideshow #slideshowWindow {
+    position:relative;
+    overflow:hidden;
+}
+#slideshow #slideshowWindow .slide {
+    width: 33.333333%;
+    float:left;
+}
+.slideText{
+    position:absolute;
+    top:100px;
+    padding-left: 100px;
+}
