@@ -6,7 +6,7 @@
 function connDB(){
 	global $mysqli;
 	// connect to the database
-	$mysqli = mysqli_connect("localhost",'user','booger420',"hotelDB");
+	$mysqli = mysqli_connect("localhost",'user','password',"hotelDB");
 
 	// if failed
 	if (mysqli_connect_errno()){
